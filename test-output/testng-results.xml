@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-21T00:50:32 IST" name="Default suite" finished-at="2022-06-21T00:50:44 IST" duration-ms="11602">
+    <groups>
+    </groups>
+    <test started-at="2022-06-21T00:50:32 IST" name="Default test" finished-at="2022-06-21T00:50:44 IST" duration-ms="11602">
+      <class name="com.webapp.scripts.TestClass">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.webapp.scripts.TestClass@4d5d943d]" started-at="2022-06-21T00:50:32 IST" name="onSetup" finished-at="2022-06-21T00:50:36 IST" duration-ms="4240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onSetup -->
+        <test-method signature="verifyValidLogin()[pri:1, instance:com.webapp.scripts.TestClass@4d5d943d]" started-at="2022-06-21T00:50:36 IST" name="verifyValidLogin" description="Login attempt with valid credentials" finished-at="2022-06-21T00:50:37 IST" duration-ms="1160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method signature="blankFieldLogin()[pri:2, instance:com.webapp.scripts.TestClass@4d5d943d]" started-at="2022-06-21T00:50:37 IST" name="blankFieldLogin" description="Login attempt with username and password fields blank" finished-at="2022-06-21T00:50:40 IST" duration-ms="2355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankFieldLogin -->
+        <test-method signature="noPasswordLogin()[pri:3, instance:com.webapp.scripts.TestClass@4d5d943d]" started-at="2022-06-21T00:50:40 IST" name="noPasswordLogin" description="Login attempt with password field empty" finished-at="2022-06-21T00:50:42 IST" duration-ms="2322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noPasswordLogin -->
+        <test-method signature="invalidLogin()[pri:4, instance:com.webapp.scripts.TestClass@4d5d943d]" started-at="2022-06-21T00:50:42 IST" name="invalidLogin" description="Login attempt with valid username and incorrect password" finished-at="2022-06-21T00:50:42 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method signature="lockedoutUser()[pri:5, instance:com.webapp.scripts.TestClass@4d5d943d]" started-at="2022-06-21T00:50:42 IST" name="lockedoutUser" description="Login attempt using locked out user credentials" finished-at="2022-06-21T00:50:43 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedoutUser -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.webapp.scripts.TestClass@4d5d943d]" started-at="2022-06-21T00:50:43 IST" name="close" finished-at="2022-06-21T00:50:44 IST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.webapp.scripts.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
